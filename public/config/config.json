@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x42E98Dd712B14E9fCdfe9ac0A55C3cecEa072A60",
+  "SCAN_LINK": "https://goerli.etherscan.io/address/0x42e98dd712b14e9fcdfe9ac0a55c3cecea072a60",
+  "NETWORK": {
+    "NAME": "Goerli Ethereum",
+    "SYMBOL": "GoETH",
+    "ID": 5
+  },
+  "NFT_NAME": "Cool Dogs",
+  "SYMBOL": "CDONFT",
+  "MAX_SUPPLY": 45,
+  "WEI_COST": 1000000000000000000,
+  "DISPLAY_COST": 0.01,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/cool-dogs-cjwjlu4cjw",
+  "SHOW_BACKGROUND": true
+}
