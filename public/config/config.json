@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x42E98Dd712B14E9fCdfe9ac0A55C3cecEa072A60",
-  "SCAN_LINK": "https://goerli.etherscan.io/address/0x42e98dd712b14e9fcdfe9ac0a55c3cecea072a60",
+  "CONTRACT_ADDRESS": "0x3Ad4B0558466DE3b22E3301155a8CB35a00320e4",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x3Ad4B0558466DE3b22E3301155a8CB35a00320e4",
   "NETWORK": {
-    "NAME": "Goerli Ethereum",
-    "SYMBOL": "GoETH",
-    "ID": 5
+    "NAME": "Rinkeby Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 4
   },
   "NFT_NAME": "Cool Dogs",
-  "SYMBOL": "CDONFT",
+  "SYMBOL": "DO",
   "MAX_SUPPLY": 45,
-  "WEI_COST": 10000000000000000,
-  "DISPLAY_COST": 0.01,
+  "WEI_COST": 30000000000000000,
+  "DISPLAY_COST": 0.03,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "OpenSea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/cool-dogs-cjwjlu4cjw",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/cool-dogs-nft-new",
   "SHOW_BACKGROUND": true
 }
