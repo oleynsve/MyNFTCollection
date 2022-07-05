@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x91f35B882109c7A3A237f868DEdDEd2894cE8d19",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x91f35B882109c7A3A237f868DEdDEd2894cE8d19",
+  "CONTRACT_ADDRESS": "0xf26c1948a3C7938D50beA75FA7AeF47d79ebE593",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xf26c1948a3C7938D50beA75FA7AeF47d79ebE593",
   "NETWORK": {
     "NAME": "Rinkeby Ethereum",
     "SYMBOL": "ETH",
@@ -9,8 +9,8 @@
   "NFT_NAME": "Cool Dogs",
   "SYMBOL": "DO",
   "MAX_SUPPLY": 45,
-  "WEI_COST": 10000000000000000,
-  "DISPLAY_COST": 0.01,
+  "WEI_COST": 30000000000000000,
+  "DISPLAY_COST": 0.03,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "OpenSea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/cool-dogs-new",
