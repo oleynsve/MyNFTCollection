@@ -62,22 +62,22 @@ export const connect = () => {
         });
         if (networkId == CONFIG.NETWORK.ID) {
           const SmartContractObj = new Web3EthContract(
-            abi,
-            CONFIG.CONTRACT_ADDRESS
+              abi,
+              CONFIG.CONTRACT_ADDRESS
           );
           dispatch(
-            connectSuccess({
-              account: accounts[0],
-              smartContract: SmartContractObj,
-              web3: web3,
-            })
+              connectSuccess({
+                account: accounts[0],
+                smartContract: SmartContractObj,
+                web3: web3,
+              })
           );
           // Add listeners start
           ethereum.on("accountsChanged", (accounts) => {
             dispatch(updateAccount(accounts[0]));
           });
           ethereum.on("chainChanged", () => {
-            window.location.reload();
+            dispatch(connectFailed(`Change network to ${CONFIG.NETWORK.NAME}.`));
           });
           // Add listeners end
         } else {
